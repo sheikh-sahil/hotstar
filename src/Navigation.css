@@ -1,0 +1,26 @@
+div#navbar{
+    width:50%;
+    border:1px solid black;
+    display: flex;
+    border-radius:50px ;
+    background-color: black;
+    color:white
+}
+
+svg{
+    font-size: 20px;
+    margin-top: 16px;
+    
+}
+
+div#navbar img{
+    width:15%;
+    margin-left:3%;   
+}
+
+ div#span{
+    margin-left:8%;
+    margin-top:2%;
+    font-size: larger;
+    
+}

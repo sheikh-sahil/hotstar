@@ -1,0 +1,43 @@
+div#header{
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(8, 5, 49,0.98);
+    color:white;
+    padding:0.3em;
+    position:fixed;
+    top:0;
+    left:0;
+    
+}
+
+div#header *{
+    flex-grow:1;
+}
+
+div#header svg{
+     margin-left:10px;
+}
+
+div#header img{
+    width:70px;
+    height:40px;
+
+   
+}
+
+div#header span{
+  
+    font-size: larger;
+  
+    padding:1em;
+    
+}
+
+
+
+@media only screen and (orientation:portrait){
+        div#header{   display:none;  }
+}

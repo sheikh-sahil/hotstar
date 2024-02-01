@@ -1,0 +1,86 @@
+div#Box{
+    width:100%;
+    border:1px solid rgb(4, 243, 44);
+    background-color: black;
+    color:white;
+    
+    
+}
+
+div#Box h1{margin-left: 2%; font-family: arial; font-size:25px;}
+
+
+div#Box div#list{
+    width:99.5%;
+    height: 55vh;
+  
+    
+    background-color: black;
+    display:flex;
+    overflow-x: auto;
+      
+}
+
+
+div#Box div#list::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px; 
+  }
+  
+ 
+  div#Box div#list::-webkit-scrollbar-track {
+    background: #0c0c0c; 
+  }
+  
+  div#Box div#list::-webkit-scrollbar-thumb {
+    
+    border-radius: 0px; 
+  }
+
+
+
+  
+
+  body::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px; 
+  }
+  
+ 
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    
+    border-radius: 0px; 
+  }
+
+  body::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px; 
+  }
+
+
+
+    
+  @media only screen and (orientation:portrait){
+
+    div#Box{
+      width:100vw;
+      height: 20vh;
+      margin: 2%;
+      
+      
+      
+  }
+
+
+
+
+
+  }
+  
+
+  
+  
